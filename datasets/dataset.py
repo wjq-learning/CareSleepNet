@@ -92,11 +92,8 @@ class LoadDataset(object):
     def split_dataset(self, seqs_labels_path_pair, cv_num):
         # length = len(seqs_labels_path_pair)
             # cv_20_fold = [cv_num*4, cv_num*4+1, cv_num*4+2, cv_num*4+3, ]
-        if cv_num < 9:
-            cv_k_fold = range(67)[7 * cv_num:7 * (cv_num + 1)]
-        else:
-            cv_k_fold = range(67)[7 * cv_num:67]
 
+        cv_k_fold = range(100)[10 * cv_num:100 * (cv_num + 1)]
         train_pairs = []
         test_pairs = []
         for i, subject_pairs in enumerate(seqs_labels_path_pair):
