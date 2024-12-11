@@ -2,13 +2,13 @@
 
 #### The code of the paper "CareSleepNet: A Hybrid Deep Learning Network for Automatic Sleep Staging" in JBHI.
 
-#### How to run:
+## How to run:
 ```bash
 python main.py
 ```
 
 
-#### Please cite:
+## Please cite:
 ```bibtex
 @article{wang2024caresleepnet,
   title={CareSleepNet: A Hybrid Deep Learning Network for Automatic Sleep Staging},
